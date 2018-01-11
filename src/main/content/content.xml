@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<batch xmlns="http://www.polopoly.com/polopoly/cm/xmlio">
+
+  <content>
+    <metadata>
+      <contentid>
+        <major>Department</major>
+        <externalid>p.siteengine.Plugins.d</externalid>
+      </contentid>
+    </metadata>
+    <contentlist>
+      <entry mode="remove">
+        <metadata>
+          <referredContent>
+            <contentid>
+              <externalid>plugins.com.atex.plugins.mozilla-persona</externalid>
+            </contentid>
+          </referredContent>
+        </metadata>
+      </entry>
+    </contentlist>
+  </content>
+
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>plugins.com.atex.plugins.mozilla-persona.Config</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>plugins.com.atex.plugins.mozilla-persona.files</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
+
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>com.atex.plugins.persona.Settings.ot</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>com.atex.plugins.persona.LoginLogout.ot</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>plugins.com.atex.plugins.mozilla-persona</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
+</batch>

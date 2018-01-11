@@ -1,0 +1,37 @@
+  ${project.description}
+
+Installation
+
+  To add the plugin dependencies to your project, edit the project <<<pom.xml>>> and add:
+
++-----------------------------------------------------------------+
+<project>
+  ...
+  <dependencies>
+    ...
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${project.artifactId}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${project.artifactId}</artifactId>
+      <version>${project.version}</version>
+      <classifier>contentdata</classifier>
+    </dependency>
+    ...
+  </dependencies>
+  ...
+</project>
++-----------------------------------------------------------------+
+
+  Running <<<mvn p:run>>> in your project, the plugin will remove the mozilla-persona plugin from the
+  system. You'll need to manually clean up you velocity files, get rid of code like this:
+
++------------------------------------------------------------------+
+#render({"outputTemplate": "com.atex.plugins.persona.LoginLogout.ot"})
++------------------------------------------------------------------+
+
+  Once you started your project and the import run through, you can then remove the dependency.
+  i.e. if you had mozilla-persona in production, you must deploy this plugin to production at least once.
