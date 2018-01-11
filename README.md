@@ -15,12 +15,12 @@ To add the plugin dependencies to your project, edit the project pom.xml and add
     <dependency>
       <groupId>com.atex.plugins</groupId>
       <artifactId>mozilla-persona</artifactId>
-      <version>1.1-final</version>
+      <version>1.0-final</version>
     </dependency>
     <dependency>
       <groupId>com.atex.plugins</groupId>
       <artifactId>mozilla-persona</artifactId>
-      <version>1.1-final</version>
+      <version>1.0-final</version>
       <classifier>contentdata</classifier>
     </dependency>
     ...
