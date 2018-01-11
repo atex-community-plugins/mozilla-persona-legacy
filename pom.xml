@@ -7,8 +7,8 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.atex.plugins</groupId>
-  <artifactId>mozilla-persona</artifactId>
-  <version>1.0-final-SNAPSHOT</version>
+  <artifactId>mozilla-persona-remover</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Mozilla Persona remover</name>
   <description>
