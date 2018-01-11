@@ -62,4 +62,12 @@
     </metadata>
   </content>
 
+  <content remove="true">
+    <metadata>
+      <contentid>
+        <externalid>import.com.atex.plugins.mozilla-persona</externalid>
+      </contentid>
+    </metadata>
+  </content>
+
 </batch>
