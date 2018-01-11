@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.atex.plugins</groupId>
   <artifactId>mozilla-persona</artifactId>
-  <version>1.1-final-SNAPSHOT</version>
+  <version>1.1-final</version>
   <packaging>jar</packaging>
   <name>Mozilla Persona remover</name>
   <description>
@@ -26,7 +26,7 @@
   <scm>
     <developerConnection>scm:git:git@github.com:atex-community-plugins/mozilla-persona-legacy.git</developerConnection>
     <url>https://github.com/atex-community-plugins/mozilla-persona-legacy</url>
-    <tag>HEAD</tag>
+    <tag>mozilla-persona-1.1-final</tag>
   </scm>
 
   <pluginRepositories>
